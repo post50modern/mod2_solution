@@ -1,2 +1,2 @@
 # mod2_solution
-Courserra Module 1 Test
+Courserra Module 2 Test
