@@ -1,0 +1,155 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*keep all boxes absolute size regardless of margins and padding*/
+    * {
+        box-sizing: border-box;
+    }
+ /*computer screen sizing*/
+    @media (min-width: 992px) {
+        .col-lg-4 {
+            float: left;
+            width: 33.33%;
+        }
+    }
+
+    /*tablet sizing*/
+    @media (min-width: 768px) and (max-width: 991px) {
+        .col-md-6 {
+            float: left;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .col-md-12 {
+            float: left;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    /*mobile sizing*/
+    @media (max-width: 767px) {
+        .col-sm-12 {
+            float: left;
+            width: 100%;
+        }
+    }
+
+
+
+    body {
+        background-color: #ffffff;
+		font-family: Arial, Helvetica, sans-serif;
+    }
+
+	.row {
+        width: 90%;
+    }
+
+
+    h1 {
+        margin: 25px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 175%;
+    }
+
+    
+
+    p {
+        position: relative;
+        clear: right;
+    }
+
+    div {
+        position: relative;
+        background-color: gray;
+        border: 1px solid black;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+	
+    }
+
+	section {
+        position: relative;
+        padding: 20px;
+        width: 100%;
+    }
+
+	.chicken{
+		
+		background-color: #f3eda5;
+		
+	
+	}
+	.beef{
+		
+		background-color: #dfcaa5;
+		
+	
+	}
+	.sushi{
+		
+		background-color: #eccbc0;
+		
+	
+	}
+	
+    .title1 {
+        float: right;
+		color: white;
+        width: 200px;
+        padding: 5px;
+        margin: 0px;
+        border: 1px solid black;
+        text-align: center;
+        font-size: 125%;
+        font-weight: bold;
+        background-color: #cbbe33;
+
+    }
+
+    .title2 {
+        float: right;
+        color: white;
+        width: 200px;
+        padding: 5px;
+        margin: 0px;
+        border: 1px solid black;
+        text-align: center;
+        font-size: 125%;
+        font-weight: bold;
+        background-color: #b06813;
+
+    }
+
+    .title3 {
+        color: white;
+        float: right;
+        width: 200px;
+        padding: 5px;
+        margin: 0px;
+        border: 1px solid black;
+        text-align: center;
+        font-size: 125%;
+        font-weight: bold;
+        background-color: #cc6666;
+
+    }
+
+    .content {
+        padding: 20px;
+        border: none;
+        color: black;
+        margin: 0px;
+        height: 200px;
+        overflow: auto;
+    }
+
+    
+   
