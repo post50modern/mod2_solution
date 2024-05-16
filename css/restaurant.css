@@ -42,7 +42,8 @@
 
     body {
         background-color: #ffffff;
-		font-family: Arial, Helvetica, sans-serif;
+		font-family: poppins, sans-serif;
+		font-weight: 300;
     }
 
 	.row {
@@ -81,19 +82,19 @@
         width: 100%;
     }
 
-	.chicken{
+	.appetizers{
 		
 		background-color: #f3eda5;
 		
 	
 	}
-	.beef{
+	.entrees{
 		
 		background-color: #dfcaa5;
 		
 	
 	}
-	.sushi{
+	.desserts{
 		
 		background-color: #eccbc0;
 		
@@ -147,8 +148,9 @@
         border: none;
         color: black;
         margin: 0px;
-        height: 200px;
+        height: 210px;
         overflow: auto;
+		line-height: 1.3em;
     }
 
     
